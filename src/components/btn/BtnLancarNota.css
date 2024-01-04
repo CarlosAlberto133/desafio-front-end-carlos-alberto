@@ -1,0 +1,15 @@
+.btn {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 183px;
+    height: 37px;
+    background: #E9FF1A;
+    border: none;
+    cursor: pointer;
+    margin-right: 35px
+}

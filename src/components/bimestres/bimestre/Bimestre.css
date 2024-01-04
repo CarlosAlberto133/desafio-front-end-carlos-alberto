@@ -1,0 +1,121 @@
+.container {
+    display: block;
+    text-align: start;
+}
+
+.container-card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 20px 0 40px 0;
+}
+
+.tooltip-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.tooltip-container .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.bimestres {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.container .card {
+    display: flex;
+}
+
+.container .cardBiologia {
+    background: #CC4090;
+    height: var(--height-default);
+    border-radius: var(--border-radius-default);
+    margin-bottom: var(--margin-bottom-default);
+}
+
+.container .cardArtes {
+    background: #05A2C2;
+    height: var(--height-default);
+    border-radius: var(--border-radius-default);
+    margin-bottom: var(--margin-bottom-default);
+}
+
+.container .cardGeografia {
+    background: #C26719;
+    height: var(--height-default);
+    border-radius: var(--border-radius-default);
+    margin-bottom: var(--margin-bottom-default);
+}
+
+.container .cardSociologia {
+    background: #9B19C2;
+    height: var(--height-default);
+    border-radius: var(--border-radius-default);
+    margin-bottom: var(--margin-bottom-default);
+}
+  
+.delete-button:hover img {
+    filter: brightness(80%);
+}
+
+.container .trash {
+    margin-left: var(--margin-left-default);
+    cursor: pointer;
+}
+ 
+.delete-button {
+    position: relative;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+  
+.delete-button:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
